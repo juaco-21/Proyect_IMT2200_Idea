@@ -1,0 +1,10 @@
+# Ignora los datos demasiado grandes para la reproductibilidad
+data/raw_data/*
+data/procesada/*
+
+# Archivos temporales de tipos que pueden ser grandes o un inconveniente
+*.csv
+*xlsx
+*.json
+*.zip
+__pycache__/
