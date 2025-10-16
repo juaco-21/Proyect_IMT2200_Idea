@@ -6,7 +6,6 @@
 |-----------------|-----------------|
 | von Gehr Campos | Lucas Andres    |
 | Ortuzar Tornero | Joaquin Ignacio |
-| von Gehr Campos | Martin Antonio  |
 
 ## Descripción
 
