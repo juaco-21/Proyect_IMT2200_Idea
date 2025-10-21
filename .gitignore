@@ -1,7 +1,7 @@
 # Ignora los datos demasiado grandes para la reproductibilidad
 data/raw_data/*
 data/procesada/*
-
+data/cr2_tasDaily_2020_ghcn/*
 # Archivos temporales de tipos que pueden ser grandes o un inconveniente
 *.csv
 *xlsx
