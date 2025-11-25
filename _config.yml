@@ -1,2 +1,4 @@
 title: ¿Veranos Prolongados en Santiago?
-theme: jekyll-theme-minimal
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+search_enable: true
