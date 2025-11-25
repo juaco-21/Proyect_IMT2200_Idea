@@ -11,3 +11,7 @@ last_edit_timestamp: true
 aux_links: 
   "Ver en Github":
     - "https://github.com/juaco-21/Proyect_IMT2200_Idea"
+
+exclude:
+  - 'node_modules'
+  - 'README.md'
