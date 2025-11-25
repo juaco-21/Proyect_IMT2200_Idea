@@ -1,4 +1,13 @@
-title: ¿Veranos Prolongados en Santiago?
 remote_theme: just-the-docs/just-the-docs
+
+title: ¿Veranos Prolongados en Santiago?
+
 color_scheme: dark
+
 search_enable: true
+
+last_edit_timestamp: true
+
+aux_links: 
+  "Ver en Github":
+    - "https://github.com/juaco-21/Proyect_IMT2200_Idea"
