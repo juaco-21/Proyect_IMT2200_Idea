@@ -13,5 +13,7 @@ aux_links:
     - "https://github.com/juaco-21/Proyect_IMT2200_Idea"
 
 exclude:
-  - 'node_modules'
-  - 'README.md'
+  - src/
+  - data/       
+  - notebooks/ 
+  - figures/ 
