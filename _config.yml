@@ -2,6 +2,8 @@ remote_theme: just-the-docs/just-the-docs
 
 title: ¿Veranos Prolongados en Santiago?
 
+nav_title: Climatología Chilena
+
 color_scheme: dark
 
 search_enable: true
