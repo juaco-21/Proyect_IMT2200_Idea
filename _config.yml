@@ -17,7 +17,7 @@ aux_links:
     - '<div style="text-align: center; margin: 10px 0;">'
     - '  <img src="figures/members-faces/joaquin.jpg" alt="Joaquin Ortuzar" style="width: 80px; height: 80px; border-radius: 50%; border: 2px solid #007bff;">'
     - '  <br><a href="https://github.com/juaco-21">**Joaquin Ortuzar**</a>'
-    - '</div>
+    - '</div>'
 
 exclude:
   - src/
