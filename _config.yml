@@ -18,4 +18,5 @@ exclude:
   - src/
   - data/       
   - notebooks/
-  - assets/
+  - assets/README.md
+  - web/README.md
