@@ -17,5 +17,4 @@ aux_links:
 exclude:
   - src/
   - data/       
-  - notebooks/ 
-  - figures/ 
+  - notebooks/
