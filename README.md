@@ -1,18 +1,24 @@
-# Bievenido al Repositorio del Proyecto de Introduccion a la Ciencia de Datos (IMT2200).
+# ☀️ ¿Veranos prolongados en Santiago?
 
-## Integrantes
+> **Proyecto por parte de estudiantes de Licienciatura en Ciencias de Datos**
 
-| **Apellidos**   | **Nombres**     |
-|-----------------|-----------------|
-| von Gehr Campos | Lucas Andres    |
-| Ortuzar Tornero | Joaquin Ignacio |
+## 👤 Integrantes
 
-## Actualizaciones
+|📷 **Imagen**                                                                                                              |👥 **Apellidos**                                          | 🗣️ **Nombres**                                          |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|
+| <img src="./figures/members-faces/lucas.jpg" alt="Descripción de mi imagen" width="75" style="border-radius: 50%;"/>    | **<span style="font-size: large;">von Gehr Campos</span>** | **<span style="font-size: large;">Lucas Andres</span>** |
+| <img src="./figures/members-faces/joaquin.jpeg" alt="Descripción de mi imagen" width="75" style="border-radius: 50%;"/> | **<span style="font-size: large;">Ortúzar Tornero</span>** | **<span style="font-size: large;">Joaquín Ignacio</span>** |
+| <img src="./figures/members-faces/benjamin.jpg" alt="Descripción de mi imagen" width="75" style="border-radius: 50%;"/> | **<span style="font-size: large;">Urra Rojas</span>** | **<span style="font-size: large;">Benjamín Andrés</span>** |
 
-### 21-10-2025:
 
-- Se añadieron los datos de parte de la base de datos `CR2`.
+## Contenidos 
 
-- Se añadio el archivo `Introduccion Proyecto.ipynb`, el cual contiene las primeras vistas al proposito de este proyecto.
+* [Acerca del Proyecto](#acerca-del-proyecto)
+* [Descubrimientos y hallazgos](#descubrimientos-y-hallazgos)
+* [Conclusiones](#conclusiones)
 
-- Se agrego el archivo `elt_redmeteo.py`, el cual contiene el codigo python para la exploracion de datos de `RedMeteo`.
+## ✨ Acerca del proyecto
+
+## 👀 Descubrimientos y hallazgos
+
+## ✅ Conclusiones

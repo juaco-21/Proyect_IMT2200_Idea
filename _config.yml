@@ -18,3 +18,4 @@ exclude:
   - src/
   - data/       
   - notebooks/
+  - figures/
