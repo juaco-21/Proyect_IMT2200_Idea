@@ -8,7 +8,7 @@ search_enable: true
 
 last_edit_timestamp: true
 
-aux_links_path: _includes/team_sidebar.html
+aux_links_path: _includes/team_widget.html
 
 #aux_links: 
   #"Ver en Github":
