@@ -6,9 +6,9 @@
 
 |📷 **Imagen**                                                                                                              |👥 **Apellidos**                                          | 🗣️ **Nombres**                                          |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|
-| <img src="./figures/members-faces/lucas.jpg" alt="Descripción de mi imagen" width="75" style="border-radius: 50%;"/>    | **<span style="font-size: large;">von Gehr Campos</span>** | **<span style="font-size: large;">Lucas Andres</span>** |
-| <img src="./figures/members-faces/joaquin.jpeg" alt="Descripción de mi imagen" width="75" style="border-radius: 50%;"/> | **<span style="font-size: large;">Ortúzar Tornero</span>** | **<span style="font-size: large;">Joaquín Ignacio</span>** |
-| <img src="./figures/members-faces/benjamin.jpg" alt="Descripción de mi imagen" width="75" style="border-radius: 50%;"/> | **<span style="font-size: large;">Urra Rojas</span>** | **<span style="font-size: large;">Benjamín Andrés</span>** |
+| <img src="/assets/images/lucas.jpg" alt="Descripción de mi imagen" width="75" style="border-radius: 50%;"/>    | **<span style="font-size: large;">von Gehr Campos</span>** | **<span style="font-size: large;">Lucas Andres</span>** |
+| <img src="/assets/images/joaquin.jpeg" alt="Descripción de mi imagen" width="75" style="border-radius: 50%;"/> | **<span style="font-size: large;">Ortúzar Tornero</span>** | **<span style="font-size: large;">Joaquín Ignacio</span>** |
+| <img src="/assets/images/benjamin.jpg" alt="Descripción de mi imagen" width="75" style="border-radius: 50%;"/> | **<span style="font-size: large;">Urra Rojas</span>** | **<span style="font-size: large;">Benjamín Andrés</span>** |
 
 
 ## Contenidos 
