@@ -13,6 +13,8 @@ aux_links_path: _includes/team_sidebar.html
 aux_links: 
   "Ver en Github":
     - "https://github.com/juaco-21/Proyect_IMT2200_Idea"
+  "Prueba contenido":
+    - "Hola Chile"
     
 exclude:
   - src/
