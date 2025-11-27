@@ -28,11 +28,7 @@
     
     <img src="{{ site.baseurl }}/assets/images/redmeteo.png" 
          alt="Descripción de la imagen"
-         style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px;">
-
-    <span style="font-weight: bold;">
-        RedMeteo.cl
-    </span>
+         style="width: 184px; height: 35px; object-fit: cover; border-radius: 8px;">
   </div>
 
   <div>
