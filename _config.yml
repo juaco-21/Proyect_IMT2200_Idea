@@ -22,3 +22,4 @@ exclude:
   - notebooks/
   - assets/README.md
   - web/README.md
+  - README.md
