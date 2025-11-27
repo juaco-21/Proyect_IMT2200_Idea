@@ -1,22 +1,24 @@
 ---
 ---
 
-// 🛑 ELIMINAMOS LA LÍNEA @import
-// Esto evita el error de compilación.
+/* 🛑 ¡ESTE ES EL CÓDIGO FINAL! 🛑 */
 
-// 🏆 CÓDIGO PARA ABRIR EL ANCHO 🏆
+/* 1. Apunta al contenedor principal de la página (el que tiene el límite de ancho) */
+/* Hacemos esto para eliminar el límite máximo global. */
+.page-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* 2. Apunta al contenedor del contenido principal después de la barra lateral */
+/* Esto asegura que el contenido en sí se extienda. */
 .main-content-wrap {
-  /* Elimina el límite de ancho de forma agresiva */
-  max-width: 95% !important; 
+  max-width: 100% !important;
+  padding-left: 20px !important; /* Para evitar que se pegue demasiado a la barra lateral */
+  padding-right: 20px !important;
 }
 
+/* 3. Asegura que el contenido interior use todo el espacio */
 .main-content {
-  /* Asegura que el contenido use todo el espacio dentro del contenedor */
-  max-width: 100% !important; 
-}
-
-// Opcional: Ajustar el relleno si se ve muy pegado
-.page-header, .page-content {
-  padding-left: 10px; 
-  padding-right: 10px;
+  max-width: 100% !important;
 }
