@@ -1,3 +1,7 @@
+---
+nav_order: 1
+---
+
 # ☀️ ¿Veranos prolongados en Santiago?
 
 > **Proyecto por parte de estudiantes de Licienciatura en Ciencias de Datos de la Universidad Catolica.**
