@@ -1,5 +1,7 @@
 # ☀️ ¿Veranos prolongados en Santiago?
 
+<img src="{{ site.baseurl }}/assets/images/chileclima.png" width="400" style="border-radius: 50%;"/>
+
 > **Proyecto por parte de estudiantes de Licienciatura en Ciencias de Datos de la Universidad Catolica.**
 
 ## 👤 Integrantes
