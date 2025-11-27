@@ -2,6 +2,8 @@ theme: jekyll-theme-minimal
 
 title: Climatología Chilena 🇨🇱
 
+width: wide
+
 color_scheme: dark
 
 search_enable: true
