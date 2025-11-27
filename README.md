@@ -26,7 +26,7 @@
 
   <div style="display: flex; align-items: center; gap: 15px;">
     
-    <img src="{{ site.baseurl }}/assets/images/redmeteo.jpg" 
+    <img src="{{ site.baseurl }}/assets/images/redmeteo.png" 
          alt="Descripción de la imagen"
          style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px;">
 
