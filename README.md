@@ -24,6 +24,8 @@
 
 ## 🤩 Motivación
 
+Nuestra motivación para hacer este proyecto es poder ver a través de análisis de datos y estadísticos, como han ido variado las temperaturas de Santiago de Chile. Con tal de ver en especifico como han aumentado las temperaturas, en especial en verano, pudiendo crear desastres como incendios forestales. Y finalmente, poder corroborar si tales temperaturas provocan una extensión de la estación mencionada, por temperaturas similares fuera del periodo comúnmente establecido.
+
 ## 📚 Bases de datos utilizadas
 
 <div style="
