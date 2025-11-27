@@ -1,10 +1,8 @@
 ---
-# El bloque YAML es obligatorio.
 ---
 
-// 🛑 ELIMINA @use y vuelve a @import sin comillas ni extensión .scss.
-// Esto es la sintaxis más compatible con versiones antiguas de Jekyll/Sass.
-@import "just-the-docs"; 
+// 🛑 ELIMINAMOS LA LÍNEA @import
+// Esto evita el error de compilación.
 
 // 🏆 CÓDIGO PARA ABRIR EL ANCHO 🏆
 .main-content-wrap {
@@ -15,4 +13,10 @@
 .main-content {
   /* Asegura que el contenido use todo el espacio dentro del contenedor */
   max-width: 100% !important; 
+}
+
+// Opcional: Ajustar el relleno si se ve muy pegado
+.page-header, .page-content {
+  padding-left: 10px; 
+  padding-right: 10px;
 }
