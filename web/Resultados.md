@@ -3,7 +3,7 @@ nav_order: 4
 ---
 # ✅ Análisis y resultados
 
-## Informacion Crucial del Contexto Para Esta Parte
+## ❗ Informacion Crucial del Contexto Para Esta Parte
 
 Nuestras motivaciones son las de entender y anticipar un fenomeno climatico importante en Chile o principalmente Santiago de Chile, la capital del pais.
 
@@ -15,7 +15,7 @@ Las preguntas claves que ayudan a dar con el analisis son:
 
 Para poder responder la segunda pregunta, transformamos este objetivo y su respuesta en un problema de Clasifocacion Binaria o una pregunta que se puede responder con un si i un no. Lo cual la simplifica bastante, ya que diremos si un mes tuvo olas de calor como un Si o un No.
 
-## ¿Como Modelamos una Ola de Calor para este problema?
+## 🔥 ¿Como Modelamos una Ola de Calor para este problema?
 
 1) Lo definimos como un evento extremo, ya que esta depende de las temperaturas altas.  Para que un mes fuera clasificado como una Ola de Calor, establecimos una regla de clasificacion: La tamperatura maxima mensual debia superar el Percentil 90 o ser parte del 10% de las temperaturas mas altas entre los meses de la distribucion historica. 
 
@@ -44,11 +44,11 @@ Para poder responder la segunda pregunta, transformamos este objetivo y su respu
 
 </div>
 
-## Evaluacion y Significado de los Resultados
+## 📝 Evaluacion y Significado de los Resultados
 
 Comparamos dos modelos predictivos: la Regresion Logistica (un modelo lineal y simple) y la Clasificacion k-Nearest Neighbors (kNN) (un modelo no lineal, basado en patrones de distancia).
 
-### Confiabilidad de los Modelos
+### 🤝 Confiabilidad de los Modelos
 
 Ya que las Olas de Calor son un evento poco frecuente, metricas como la Precisión (que tan confiable es) y el Recall (nuestra capacidad de detección acertada). Vamos a dar los siguientes ejemplos de que representan para una mayor comprension:
 
@@ -58,7 +58,7 @@ Ya que las Olas de Calor son un evento poco frecuente, metricas como la Precisi�
 
 Tambien es importante destacar que los modelos que utilizamos fueron muy similares. Lo cual implica que la relacion entre la presión, la humedad y otras variables es bastante clara. De hecho es tan clara que se puede describir con una relacion lineal simple (la Regresion Logistica), lo que los india que no se necesitan algoritmos complejos para dar con esta prediccion.
 
-## El Mapeo de Errores: Matriz de Confusion
+## 🖼️ El Mapeo de Errores: Matriz de Confusion
 
 - La Matriz de Confusion es el mapa que nos dice donde acierta y donde falla el modelo.
 
@@ -76,17 +76,17 @@ Tambien es importante destacar que los modelos que utilizamos fueron muy similar
 
 Se puede decir que, nuestro modelo es muy confiable cuando predice, aunque pierda algunos eventos extremos, por lo general cuando acierta es bastante probable que sea verdad.
 
-### Conclusion de la pregunta
+### ✅ Conclusion de la pregunta
 
 El modelamiento que realizamos demostro que las variables climaticas (Presion Atmosferica, Humedad Media, Precipitacion y Radiacion UV Maxima) son predictivas para la ocurrecia de una Ola de Calor con una confianza de 84% por la metrica de Presicion. Ademas el uso del modelo de kNN valida por asi decirlo, la hipotesis inicial que teniamos, la cual esra que las condiciones atmosfericas que preceden a una Ola de Calor siguen los patrones distintivos los cuales deberian de replicarse apartir de los datos historicos. 
 
 
-## Preocupaciones y Extensiones Futuras
+## 😣 Preocupaciones y Extensiones Futuras
 
 __Problematicas Globales__: Nuestros hallazgos reafirman que los factores atmosfericas asociados el cambio climatico, tales como el aumento de la radiacion UV y la baja de humedad. Estos son factores que aportan (Como se ve en la matriz de correlacion) a la concurrencia de Olas de Calor. La capacidad de poder predecir estos eventos (Las Olas de Calor) es algo esencial o importante para la gestion y prevencion de riesgo asociados a estos eventos, como los incendios forestales y posibles golpes de calor en la poblacion.
 
 
-### Analisis a Fururo y Mejoras 
+### ✨ Analisis a Fururo y Mejoras 
 
 1) Se podria mejorar el umbral de eleccion de olas de calor, evaluandolo por dia y no por meses. Dando con una prediccion mas presica y practica. 
 
