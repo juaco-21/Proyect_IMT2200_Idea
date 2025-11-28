@@ -32,7 +32,7 @@ Creamos los siguientes DataFrames de Pandas a partir de los archivos CSV mencion
 
 <div style="text-align: center;">
 
-  <img src="{{ site.baseurl }}/web/imgs/ejemplo_df.PNG" 
+  <img src="{{ site.baseurl }}/web/imgs/imgs_proceso/ejemplo_df.PNG" 
        style="
            max-width: 90%; 
            height: auto; 
@@ -48,7 +48,7 @@ Quedan del formato ["Año", "Noviembre", "Diciembre", "Enero", "Febrero", "Marzo
 
 <div style="text-align: center;">
 
-  <img src="{{ site.baseurl }}/web/imgs/ejemplo_codigo.PNG" 
+  <img src="{{ site.baseurl }}/web/imgs/imgs_proceso/ejemplo_codigo.PNG" 
        style="
            max-width: 90%; 
            height: auto; 
@@ -61,7 +61,7 @@ Quedan del formato ["Año", "Noviembre", "Diciembre", "Enero", "Febrero", "Marzo
 
 <div style="text-align: center;">
 
-  <img src="{{ site.baseurl }}/web/imgs/media_v y short_media_v.PNG" 
+  <img src="{{ site.baseurl }}/web/imgs/imgs_proceso/media_v y short_media_v.PNG" 
        style="
            max-width: 90%; 
            height: auto; 
@@ -76,7 +76,7 @@ Queda del formato ["Año", "Media_humedad", "Media_precipitación", "Media_presi
 
 <div style="text-align: center;">
 
-  <img src="{{ site.baseurl }}/web/imgs/df_completo.PNG" 
+  <img src="{{ site.baseurl }}/web/imgs/imgs_proceso/df_completo.PNG" 
        style="
            max-width: 90%; 
            height: auto; 
