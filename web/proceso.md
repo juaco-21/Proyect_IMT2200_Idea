@@ -3,10 +3,10 @@ nav_order: 3
 ---
 
 # ⚙️ Proceso de recoleccion y desarollo de datos
-### **Herramientas utilizadas**: Python a través de Jupyter Notebooks y algunas de las librerías, principalmente Pandas, Seaborn, Matplotlib, y Sklearn.
+### 🛠️ **Herramientas utilizadas**: Python a través de Jupyter Notebooks y algunas de las librerías, principalmente Pandas, Seaborn, Matplotlib, y Sklearn.
 
-## **Recolección**
-### **MeteoChile**:
+## ⛏️ **Recolección**
+### 🏞️ **MeteoChile**:
 De aquí recolectamos varia información, pero la que nos interesa para esto son:
 <br>**1)** Máxima y mínima temperatura media por mes en cada año.
 <br>**2)** Temperatura media por mes en cada año.
@@ -21,7 +21,7 @@ Esta data fue recopilada en diferentes archivos CSV, como:
 
 Son del formato ["Año",  "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 
-## **Procesamiento**
+## 🪢 **Procesamiento**
 Creamos los siguientes DataFrames de Pandas a partir de los archivos CSV mencionados anteriormente:<br>
 * **df_maxim**: Hecho con CSV de temperatura máxima por mes.
 * **df_minim**: Hecho con CSV de temperatura mínima por mes.
@@ -29,21 +29,59 @@ Creamos los siguientes DataFrames de Pandas a partir de los archivos CSV mencion
 * **df_humed**: Hecho con CSV de la data de humedad mensual.
 * **df_preci**: Hecho con CSV de la data de precipitación mensual.
 * **df_presi**: Hecho con CSV de la data de presión atmosférica.
-![Head y tail de un DataFrame](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/ejemplo_df.PNG) <br>
-(Ejemplo de head y tail de df_maxim)
 
-#### **df_maxim, df_minim, df_media, df_humed, df_preci, df_presi**
+<div style="text-align: center;">
+
+  <img src="{{ site.baseurl }}/web/imgs/ejemplo_df.PNG" 
+       style="
+           max-width: 90%; 
+           height: auto; 
+           display: block; 
+           margin: 0 auto;
+       ">
+</div>
+
+#### 📋 **df_maxim, df_minim, df_media, df_humed, df_preci, df_presi**
 Con estos DataFrames creé los siguientes:
 * **df_[Nombre de DataFrame]_v**: Copia del DataFrame pero solo con la data desde Noviembre a Marzo, que fué el plazo que escogimos para analizar. También tiene una columna añadida que junta toda la data de las otras columnas.<br>
 Quedan del formato ["Año", "Noviembre", "Diciembre", "Enero", "Febrero", "Marzo", Media o max/min de los valores de la fila.]
-![Ejemplo de código](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/ejemplo_codigo.PNG) <br>
-(Ejemplo de código para conseguir data de los meses deseados)<br>
-* **df_short_[Nombre de DataFrame]_v**: Una versión acortada de df_[Nombre de DataFrame]_v, solo con ["Año", Media o max/min de los valores de la fila.]<br>
-![img ambos dataframes ejemplo](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/media_v%20y%20short_media_v.PNG)<br>
-(Ejemplo mostrando df_media_v arriba y df_short_media abajo)
 
-#### **df_short_[Nombre de DataFrame]_short_v**
-* **df_combinado**: Un DataFrame con toda la data importante de cada DataFrame del rango de meses seleccionado.<br>
+<div style="text-align: center;">
+
+  <img src="{{ site.baseurl }}/web/imgs/ejemplo_codigo.PNG" 
+       style="
+           max-width: 90%; 
+           height: auto; 
+           display: block; 
+           margin: 0 auto;
+       ">
+</div>
+
+**df_short_[Nombre de DataFrame]_v** : Una versión acortada de df_[Nombre de DataFrame]_v, solo con ["Año", Media o max/min de los valores de la fila.]<br>
+
+<div style="text-align: center;">
+
+  <img src="{{ site.baseurl }}/web/imgs/media_v y short_media_v.PNG" 
+       style="
+           max-width: 90%; 
+           height: auto; 
+           display: block; 
+           margin: 0 auto;
+       ">
+</div>
+
+#### 📋 **df_short_[Nombre de DataFrame]_short_v**
+**df_combinado**: Un DataFrame con toda la data importante de cada DataFrame del rango de meses seleccionado.<br>
 Queda del formato ["Año", "Media_humedad", "Media_precipitación", "Media_presión", "Media_temperatura", "Max_temperatura", "Min_temperatura"]<br>
-  ![Screenshot df_combinado](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/df_completo.PNG)<br>
+
+<div style="text-align: center;">
+
+  <img src="{{ site.baseurl }}/web/imgs/df_completo.PNG" 
+       style="
+           max-width: 90%; 
+           height: auto; 
+           display: block; 
+           margin: 0 auto;
+       ">
+</div>
 
