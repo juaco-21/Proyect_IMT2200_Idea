@@ -3,9 +3,26 @@ nav_order: 3
 ---
 
 # ⚙️ Proceso de recoleccion y desarollo de datos
+### **Herramientas utilizadas**: Python a través de Jupyter Notebooks y algunas de las librerías, principalmente Pandas, Seaborn, Matplotlib, y Sklearn.
+
+## **Recolección**
+### **MeteoChile**:
+De aquí recolectamos varia información, pero la que nos interesa para esto son:
+<br>**1)** Máxima y mínima temperatura media por mes en cada año.
+<br>**2)** Temperatura media por mes en cada año.
+<br>**3)** Humedad, presión atmosférica media, y precipitación por mes.<br><br>
+Esta data fue recopilada en diferentes archivos CSV, como:
+* "maximo_temperaturas_maximas_santiago.csv": Temperatura máxima por mes.
+* "media_temperaturas_minimas_santiago.csv": Temperatura mínima por mes.
+* "media_temperaturas_maximas_santiago.csv": Temperatura media por mes.
+* "humedad_mensual_santiago.csv": Humedad media por mes.
+* "precipitaciones_mensuales_santiago.csv": Precipitación por mes.
+* "presion_mensual_santiago.csv": Presión atmosférica media por mes.<br><br>
+
+Son del formato ["Año",  "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 
 ## **Procesamiento**
-Dado a que la información que buscaba ya estaba recolectada y limpiada, creé los siguientes DataFrames de Pandas a partir de archivos CSV:<br>
+Creamos los siguientes DataFrames de Pandas a partir de los archivos CSV mencionados anteriormente:<br>
 * **df_maxim**: Hecho con CSV de temperatura máxima por mes.
 * **df_minim**: Hecho con CSV de temperatura mínima por mes.
 * **df_media**: Hecho con CSV de temperatura media por mes.
@@ -17,16 +34,16 @@ Dado a que la información que buscaba ya estaba recolectada y limpiada, creé l
 
 #### **df_maxim, df_minim, df_media, df_humed, df_preci, df_presi**
 Con estos DataFrames creé los siguientes:
-* **[Nombre de DataFrame]_v**: Copia del DataFrame pero solo con la data desde Noviembre a Marzo, que fué el plazo que escogimos para analizar.<br>
+* **df_[Nombre de DataFrame]_v**: Copia del DataFrame pero solo con la data desde Noviembre a Marzo, que fué el plazo que escogimos para analizar. También tiene una columna añadida que junta toda la data de las otras columnas.<br>
+Quedan del formato ["Año", "Noviembre", "Diciembre", "Enero", "Febrero", "Marzo", Media o max/min de los valores de la fila.]
 ![Ejemplo de código](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/ejemplo_codigo.PNG) <br>
 (Ejemplo de código para conseguir data de los meses deseados)<br>
+* **df_short_[Nombre de DataFrame]_v**: Una versión acortada de df_[Nombre de DataFrame]_v, solo con ["Año", Media o max/min de los valores de la fila.]<br>
+![img ambos dataframes ejemplo](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/media_v%20y%20short_media_v.PNG)<br>
+(Ejemplo mostrando df_media_v arriba y df_short_media abajo)
 
-#### **[Nombre de DataFrame]_v**
+#### **df_short_[Nombre de DataFrame]_short_v**
 * **df_combinado**: Un DataFrame con toda la data importante de cada DataFrame del rango de meses seleccionado.<br>
+Queda del formato ["Año", "Media_humedad", "Media_precipitación", "Media_presión", "Media_temperatura", "Max_temperatura", "Min_temperatura"]<br>
   ![Screenshot df_combinado](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/df_completo.PNG)<br>
-Otro gráfico que hice fue un histograma de temperaturas para ver cuál temperatura media era más común por mes en dos rangos de años, de 2000 a 2020 y de 1980 a 2000. <br>
-![histplot 1](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/hist_temp_mes_nov-mar.png) <br>
-O con la misma data también ví la cantidad de veces que se repetía cada temperatura media sin importar el mes.
-![histplot 2](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/hist_temp_nov-mar.png) <br>
-Y por último, para ver si algunos datos como la temperatura o presión podían estar relacionados, hice un heatmap.
-![heatmap](https://github.com/juaco-21/Proyect_IMT2200_Idea/blob/main/web/imgs/imgs_proceso/heatmap.png)
+
